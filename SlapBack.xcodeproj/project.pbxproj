@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06FC1468759A4990 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38840CA77374E95 /* SoundPlayer.swift */; };
+		0E5D856E46784490 /* SlapEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F352743069492B /* SlapEngine.swift */; };
+		15B3BA86F9D34FD6 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF363A24BB324218 /* MenuBarView.swift */; };
+		35CE12B75C30485C /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7A17AD26014A67 /* SettingsStore.swift */; };
+		91393062DBAE44E2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56348447DFF44CA0 /* SettingsView.swift */; };
+		9F5DF88DEB2E4888 /* AccelerometerReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43527551C4AA4F31 /* AccelerometerReader.swift */; };
+		BF41B1DA1E37424A /* SlapDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA00AD641E4678 /* SlapDetector.swift */; };
+		CCCCCC0000000001 /* Resources/Sounds in Resources */ = {isa = PBXBuildFile; fileRef = CCCCCC0000000002 /* Resources/Sounds */; };
+		D3B54FC200894243 /* ComboTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C82376E62B84A49 /* ComboTracker.swift */; };
+		DDDDDD0000000001 /* ScreenFlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDD0000000002 /* ScreenFlash.swift */; };
+		EEEEEE0000000001 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEEE0000000002 /* ConfettiView.swift */; };
+		EEEEEE0000000003 /* USBMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEEE0000000004 /* USBMonitor.swift */; };
+		EEEEEE0000000005 /* SlapStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEEE0000000006 /* SlapStats.swift */; };
+		EEEEEE0000000007 /* GlobalHotkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEEE0000000008 /* GlobalHotkey.swift */; };
+		EEEEEE0000000009 /* SoundRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEEE000000000A /* SoundRecorder.swift */; };
+		EEEEEE000000000B /* SlapActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEEE000000000C /* SlapActions.swift */; };
+		EEEEEE000000000D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEEE000000000E /* OnboardingView.swift */; };
+		FD58E81E69CF4F32 /* SlapBackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF6F8B8B8D24A87 /* SlapBackApp.swift */; };
+		FF000000000000A1 /* FocusMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000000000000A2 /* FocusMonitor.swift */; };
+		FF000000000000A3 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000000000000A4 /* HapticManager.swift */; };
+		FF000000000000A5 /* IdleTaunts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000000000000A6 /* IdleTaunts.swift */; };
+		FF000000000000A7 /* GestureDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000000000000A8 /* GestureDetector.swift */; };
+		FF000000000000A9 /* ScreenShake.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000000000000AA /* ScreenShake.swift */; };
+		FF000000000000AB /* CalibrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000000000000AC /* CalibrationView.swift */; };
+		FF000000000000AD /* SoundPackImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000000000000AE /* SoundPackImporter.swift */; };
+		FF000000000000B1 /* Resources/AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FF000000000000B2 /* Resources/AppIcon.icns */; };
+		FF000000000000C1 /* DebugVisualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000000000000C2 /* DebugVisualizerView.swift */; };
+		FF000000000000C3 /* BeatboxMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000000000000C4 /* BeatboxMode.swift */; };
+		FF000000000000C5 /* SlapChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000000000000C6 /* SlapChallenge.swift */; };
+		FF000000000000D1 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000000000000D2 /* KeychainStore.swift */; };
+		FF000000000000E1 /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000000000000E2 /* WindowManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A7A17AD26014A67 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		43527551C4AA4F31 /* AccelerometerReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerReader.swift; sourceTree = "<group>"; };
+		56348447DFF44CA0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5C82376E62B84A49 /* ComboTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComboTracker.swift; sourceTree = "<group>"; };
+		6DF6F8B8B8D24A87 /* SlapBackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlapBackApp.swift; sourceTree = "<group>"; };
+		A7DC71D727634800 /* SlapBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlapBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9937BF649E4BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFA00AD641E4678 /* SlapDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlapDetector.swift; sourceTree = "<group>"; };
+		AFDED4049E2141EB /* SlapBack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SlapBack.entitlements; sourceTree = "<group>"; };
+		B8F352743069492B /* SlapEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlapEngine.swift; sourceTree = "<group>"; };
+		C38840CA77374E95 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		CCCCCC0000000002 /* Resources/Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources/Sounds; sourceTree = "<group>"; };
+		DDDDDD0000000002 /* ScreenFlash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFlash.swift; sourceTree = "<group>"; };
+		EEEEEE0000000002 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		EEEEEE0000000004 /* USBMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBMonitor.swift; sourceTree = "<group>"; };
+		EEEEEE0000000006 /* SlapStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlapStats.swift; sourceTree = "<group>"; };
+		EEEEEE0000000008 /* GlobalHotkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHotkey.swift; sourceTree = "<group>"; };
+		EEEEEE000000000A /* SoundRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRecorder.swift; sourceTree = "<group>"; };
+		EEEEEE000000000C /* SlapActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlapActions.swift; sourceTree = "<group>"; };
+		EEEEEE000000000E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		EF363A24BB324218 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		FF000000000000A2 /* FocusMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusMonitor.swift; sourceTree = "<group>"; };
+		FF000000000000A4 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		FF000000000000A6 /* IdleTaunts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleTaunts.swift; sourceTree = "<group>"; };
+		FF000000000000A8 /* GestureDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDetector.swift; sourceTree = "<group>"; };
+		FF000000000000AA /* ScreenShake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShake.swift; sourceTree = "<group>"; };
+		FF000000000000AC /* CalibrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationView.swift; sourceTree = "<group>"; };
+		FF000000000000AE /* SoundPackImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPackImporter.swift; sourceTree = "<group>"; };
+		FF000000000000B2 /* Resources/AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Resources/AppIcon.icns; sourceTree = "<group>"; };
+		FF000000000000C2 /* DebugVisualizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugVisualizerView.swift; sourceTree = "<group>"; };
+		FF000000000000C4 /* BeatboxMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatboxMode.swift; sourceTree = "<group>"; };
+		FF000000000000C6 /* SlapChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlapChallenge.swift; sourceTree = "<group>"; };
+		FF000000000000D2 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		FF000000000000E2 /* WindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6A69344B814500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39D3479443064495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC71D727634800 /* SlapBack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A2E2C39148C4D91 /* SlapBack */ = {
+			isa = PBXGroup;
+			children = (
+				6DF6F8B8B8D24A87 /* SlapBackApp.swift */,
+				43527551C4AA4F31 /* AccelerometerReader.swift */,
+				ACFA00AD641E4678 /* SlapDetector.swift */,
+				5C82376E62B84A49 /* ComboTracker.swift */,
+				C38840CA77374E95 /* SoundPlayer.swift */,
+				B8F352743069492B /* SlapEngine.swift */,
+				EF363A24BB324218 /* MenuBarView.swift */,
+				56348447DFF44CA0 /* SettingsView.swift */,
+				1A7A17AD26014A67 /* SettingsStore.swift */,
+				AA9937BF649E4BF7 /* Info.plist */,
+				DDDDDD0000000002 /* ScreenFlash.swift */,
+				EEEEEE0000000002 /* ConfettiView.swift */,
+				EEEEEE0000000004 /* USBMonitor.swift */,
+				EEEEEE0000000006 /* SlapStats.swift */,
+				EEEEEE0000000008 /* GlobalHotkey.swift */,
+				EEEEEE000000000A /* SoundRecorder.swift */,
+				EEEEEE000000000C /* SlapActions.swift */,
+				EEEEEE000000000E /* OnboardingView.swift */,
+				FF000000000000A2 /* FocusMonitor.swift */,
+				FF000000000000A4 /* HapticManager.swift */,
+				FF000000000000A6 /* IdleTaunts.swift */,
+				FF000000000000A8 /* GestureDetector.swift */,
+				FF000000000000AA /* ScreenShake.swift */,
+				FF000000000000AC /* CalibrationView.swift */,
+				FF000000000000AE /* SoundPackImporter.swift */,
+				FF000000000000C2 /* DebugVisualizerView.swift */,
+				FF000000000000C4 /* BeatboxMode.swift */,
+				FF000000000000C6 /* SlapChallenge.swift */,
+				FF000000000000D2 /* KeychainStore.swift */,
+				FF000000000000E2 /* WindowManager.swift */,
+				AFDED4049E2141EB /* SlapBack.entitlements */,
+				CCCCCC0000000002 /* Resources/Sounds */,
+				FF000000000000B2 /* Resources/AppIcon.icns */,
+			);
+			path = SlapBack;
+			sourceTree = "<group>";
+		};
+		BB1FF52057354931 = {
+			isa = PBXGroup;
+			children = (
+				4A2E2C39148C4D91 /* SlapBack */,
+				39D3479443064495 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E22007BDCE834300 /* SlapBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F22A67622A045EE /* Build configuration list for PBXNativeTarget "SlapBack" */;
+			buildPhases = (
+				9ED41AF720F24B22 /* Sources */,
+				CD6A69344B814500 /* Frameworks */,
+				CCCCCC0000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlapBack;
+			productName = SlapBack;
+			productReference = A7DC71D727634800 /* SlapBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A4D1B4F08654800 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+			};
+			buildConfigurationList = A674A437A8274523 /* Build configuration list for PBXProject "SlapBack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB1FF52057354931;
+			productRefGroup = 39D3479443064495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E22007BDCE834300 /* SlapBack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCCCCC0000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCCCC0000000001 /* Resources/Sounds in Resources */,
+				FF000000000000B1 /* Resources/AppIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ED41AF720F24B22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD58E81E69CF4F32 /* SlapBackApp.swift in Sources */,
+				9F5DF88DEB2E4888 /* AccelerometerReader.swift in Sources */,
+				BF41B1DA1E37424A /* SlapDetector.swift in Sources */,
+				D3B54FC200894243 /* ComboTracker.swift in Sources */,
+				06FC1468759A4990 /* SoundPlayer.swift in Sources */,
+				0E5D856E46784490 /* SlapEngine.swift in Sources */,
+				15B3BA86F9D34FD6 /* MenuBarView.swift in Sources */,
+				91393062DBAE44E2 /* SettingsView.swift in Sources */,
+				35CE12B75C30485C /* SettingsStore.swift in Sources */,
+				DDDDDD0000000001 /* ScreenFlash.swift in Sources */,
+				EEEEEE0000000001 /* ConfettiView.swift in Sources */,
+				EEEEEE0000000003 /* USBMonitor.swift in Sources */,
+				EEEEEE0000000005 /* SlapStats.swift in Sources */,
+				EEEEEE0000000007 /* GlobalHotkey.swift in Sources */,
+				EEEEEE0000000009 /* SoundRecorder.swift in Sources */,
+				EEEEEE000000000B /* SlapActions.swift in Sources */,
+				EEEEEE000000000D /* OnboardingView.swift in Sources */,
+				FF000000000000A1 /* FocusMonitor.swift in Sources */,
+				FF000000000000A3 /* HapticManager.swift in Sources */,
+				FF000000000000A5 /* IdleTaunts.swift in Sources */,
+				FF000000000000A7 /* GestureDetector.swift in Sources */,
+				FF000000000000A9 /* ScreenShake.swift in Sources */,
+				FF000000000000AB /* CalibrationView.swift in Sources */,
+				FF000000000000AD /* SoundPackImporter.swift in Sources */,
+				FF000000000000C1 /* DebugVisualizerView.swift in Sources */,
+				FF000000000000C3 /* BeatboxMode.swift in Sources */,
+				FF000000000000C5 /* SlapChallenge.swift in Sources */,
+				FF000000000000D1 /* KeychainStore.swift in Sources */,
+				FF000000000000E1 /* WindowManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AAAAAA0000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAAAAA0000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AAAAAA0000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = SlapBack/SlapBack.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y37VQ6H2R;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SlapBack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SlapBack;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slapback.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AAAAAA0000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = SlapBack/SlapBack.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y37VQ6H2R;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SlapBack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SlapBack;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slapback.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F22A67622A045EE /* Build configuration list for PBXNativeTarget "SlapBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAAAA0000000003 /* Debug */,
+				AAAAAA0000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A674A437A8274523 /* Build configuration list for PBXProject "SlapBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAAAA0000000001 /* Debug */,
+				AAAAAA0000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A4D1B4F08654800 /* Project object */;
+}

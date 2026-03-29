@@ -1,0 +1,47 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserdata
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# Build artifacts
+*.o
+*.d
+*.dia
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Hopper Disassembler
+*.hop
+*.hop.mcpcache
+
+# App bundles (built output)
+*.app/
+
+# DMG
+*.dmg
+
+# Archives
+*.xcarchive
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Temporary files
+*.swp
+*~
