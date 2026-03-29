@@ -4,6 +4,10 @@ A macOS menu bar app that detects physical slaps on your MacBook and responds wi
 
 SlapBack reads your MacBook's built-in accelerometer to detect impacts near the trackpad, classifies them by intensity (Light / Medium / Hard / Extreme), and triggers configurable audio-visual feedback in real time.
 
+## Download
+
+Latest releases can be downloaded from [GitHub Releases](https://github.com/jayluxferro/SlapBack/releases).
+
 ## Requirements
 
 - macOS 14.0+
