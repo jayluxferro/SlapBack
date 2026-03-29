@@ -145,4 +145,4 @@ KeychainStore.swift        Secure settings backup in Keychain
 
 ## License
 
-Copyright 2026. All rights reserved.
+[MIT License](LICENSE)
